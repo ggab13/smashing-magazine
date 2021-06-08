@@ -1,0 +1,152 @@
+.navbar{
+	background-color: rgb(39, 39, 39);
+	width: 100%;
+	height: 120px;
+}
+.articles{
+	background-color: rgb(138, 136, 136);
+	width: 100%;
+	height: 70px;
+}
+
+.main {
+	margin: 0 auto;
+	width: 1600px;
+}
+.headline{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 10px;
+	padding: 50px;
+	
+
+}
+h1{
+	margin-left:15px;
+	margin-top: 50px;
+	display: inline;
+	font-family: 'Baloo Tammudu 2', cursive;
+	line-height: 70px;
+	font-weight: 700;	
+	font-size: 60px;
+}
+.head-writing{
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	grid-gap: 30px;	
+	height: 800px;
+	width: 900px;
+
+}
+.square {
+	margin-left: 80px;
+	margin-top: 60px;
+  height: 150px;
+  width: 150px;
+	background-color: rgb(202, 199, 199);
+	border: solid 10px rgb(175, 39, 39);
+	border-radius: 5px;
+	transform: rotate(-15deg);
+}
+.email-newsletter {
+	width: 250px;
+	height: 60px;
+	margin-top: 30px;
+	margin-left: -100px;
+	font-size: 30px;
+	background-color: white;
+	color: rgb(184, 39, 39);
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-weight: 600;
+	border-radius: 10px;
+}
+.lorem-p {
+	display: grid;
+	grid-column: 1 / span 2;
+	margin: 50px;
+	font-size: 20px;
+	line-height: 30px;
+
+  
+}
+.newsletter {
+	margin-top: 100px;
+	height: 600px;
+	width: 400px;
+	background-color:  rgba(64, 191, 223, 0.1);
+	
+}
+.circle {
+	position: relative;
+	left: 115px;
+	top: -50px;
+	height: 175px;
+  width: 175px;
+  background-color: rgb(211, 209, 209);
+  border-radius: 50%;
+  display: inline-block;
+}
+.guides {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	padding: 50px;
+}
+.guide {
+	width: 400px;
+	height: 500px;
+	background-color:  rgb(54, 54, 54);
+}
+.see-all {
+	margin: 20px auto;
+	width: 200px;
+	height: 100px;
+	background-color:  rgb(161, 158, 158);
+}
+.latest-posts{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 1fr 1fr;
+	padding: 20px;
+}
+.post {
+	width: 600px;
+	height: 500px;
+	margin: 10px;
+	background-color:rgb(27, 27, 27);
+}
+.smashing-family{
+	margin: 50px 0;
+	width: 100%;
+	height: 100px;
+	background-color: rgb(41, 40, 40);
+}
+.family-grid {
+
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+}
+.family-grid-item{
+	margin-bottom: 50px;
+	padding: 20px;
+	width: 300px;
+	height: 400px;
+	background-color: rgb(44, 43, 43);
+}
+.boosts {
+	width: 100%;
+	height: 700px;
+	background-color: rgb(68, 67, 67);
+}
+
+footer {
+	width: 100%;
+	height: 500px;
+	background-color: rgb(165, 162, 162);
+}
+.potw {
+	margin: 50px 0;
+	width: 100%;
+	height: 300px;
+	background-color: rgb(78, 78, 78);
+}
